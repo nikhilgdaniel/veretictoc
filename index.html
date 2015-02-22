@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet/co.css" />
+	<script type="text/vbscript"> </script>
+	<title>Tic Toc</title>
+	<SCRIPT LANGUAGE="JavaScript">
+  var count =0;
+var countt=0;
+  function compare()
+{ for ( var i=0;i<5;i++)
+  if(ms > mss)
+    {count++
+  alert(count)}
+  else
+    {countt++
+  alert(countt)}
+  }
+  </script>
+
+</head>
+
+<body>
+	
+	 <table class="p1">
+	  <!-- <tr>
+	  <td align="center" valign="top"><button id="reset">Start   </button>
+	  <td> 
+	  </tr> -->
+	  <tr>
+      	<td align="center" valign="top" class="p2"><button class="p2"> 
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var mss = 0;
+var statee = 0;
+
+function startstopp() {
+if (statee == 0) {
+statee = 1;
+thenn = new Date();
+thenn.setTime(thenn.getTime() - mss);
+} else {
+statee = 0;
+noww = new Date();
+mss = noww.getTime() - thenn.getTime();
+document.stpww.time.value = mss;
+   }
+}
+
+function swresett() {
+statee = 0;
+mss = 0;
+document.stpw.time.value = mss;
+}
+
+function displayy() {
+setTimeout("display();", 50);
+if (statee == 1)  {noww = new Date();
+mss = noww.getTime() - thenn.getTime();
+document.stpww.time.value = mss;
+   }
+}
+compare.call()
+
+
+{
+
+}
+
+window.onload=display
+
+</SCRIPT>
+<CENTER>
+<FORM NAME="stpww">
+<INPUT TYPE="tesrgerg6txt" Name="time"><br>
+<INPUT TYPE="BUTTON" Name="ssbutton" VALUE="Start/Stop" onClick="startstopp()">
+<INPUT TYPE="BUTTON" NAME="reset" VALUE="Reset" onClick="swresett()">
+
+</FORM>
+</CENTER></button></td>
+      	<!-- <td align="center" valign="bottom"><button class="p2" >
+    <i> <img src="img/fav.png" width="10px" height="10px"> </i> 
+    <span> Start</span>
+</button> -->
+      </tr>
+	</table>
+
+	
+	 <table>
+      <tr>
+      	<td align="center" valign="bottom"> <button>
+<SCRIPT LANGUAGE="JavaScript">
+
+var ms = 0;
+var state = 0;
+
+function startstop() {
+if (state == 0) {
+state = 1;
+then = new Date();
+then.setTime(then.getTime() - ms);
+} else {
+state = 0;
+now = new Date();
+ms = now.getTime() - then.getTime();
+document.stpw.time.value = ms;
+   }
+}
+
+function swreset() {
+state = 0;
+ms = 0;
+document.stpw.time.value = ms;
+}
+
+function display() {
+setTimeout("displayy();", 50);
+if (state == 1)  {now = new Date();
+ms = now.getTime() - then.getTime();
+document.stpw.time.value = ms;
+   }
+
+
+}
+
+window.onload=display
+
+</SCRIPT>
+<CENTER>
+<FORM NAME="stpw" id="pla">
+<INPUT TYPE="text" Name="time"><br>
+<INPUT TYPE="BUTTON" Name="ssbutton" VALUE="Start/Stop" onClick="startstop()">
+<INPUT TYPE="BUTTON" NAME="reset" VALUE="Reset" onClick="swreset()">
+
+</FORM> </p>
+</CENTER></button></td>
+      	<!-- <td align="center" valign="bottom"><button class="p2" >
+    <i> <img src="img/fav.png" width="10px" height="10px"> </i> 
+    <span> Start</span> 
+</button> -->
+
+
+
+      </tr>
+     </table>
+
+
+ </body>
+ </html>
+             
